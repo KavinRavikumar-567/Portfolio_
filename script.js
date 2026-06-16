@@ -136,7 +136,7 @@ function getAgentResponse(message) {
     }
     
     if (lowerMessage.includes('resume') || lowerMessage.includes('cv') || lowerMessage.includes('pdf')) {
-        return "You can view and download Kavin's latest resume here: <a href='RESUME.pdf' target='_blank' style='color: var(--accent-blue); font-weight: 600; text-decoration: underline;'>RESUME.pdf</a>.";
+        return "You can view and download Kavin's latest resume here: <a href='https://drive.google.com/file/d/14oyB-rIwkXDbJLzCsyCo3fWkUrxhTvXo/view?usp=sharing' target='_blank' style='color: var(--accent-blue); font-weight: 600; text-decoration: underline;'>Google Drive Resume</a>.";
     }
     
     if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey')) {
