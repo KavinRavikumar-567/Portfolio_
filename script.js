@@ -135,6 +135,10 @@ function getAgentResponse(message) {
         return "You can connect with Kavin at kavinravicse@gmail.com or via call at +91 9342541785. Check out his LinkedIn (linkedin.com/in/kavinravikumar567) or GitHub (github.com/KavinRavikumar-567)!";
     }
     
+    if (lowerMessage.includes('resume') || lowerMessage.includes('cv') || lowerMessage.includes('pdf')) {
+        return "You can view and download Kavin's latest resume here: <a href='RESUME.pdf' target='_blank' style='color: var(--accent-blue); font-weight: 600; text-decoration: underline;'>RESUME.pdf</a>.";
+    }
+    
     if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey')) {
         return "Hello! I'm Kavin's AI Portfolio Assistant. Feel free to ask me about his B.Tech education, MERN internship experience, projects (like the Voice Emotion Tracker), skills, or aspirations as an aspiring Data Engineer!";
     }
